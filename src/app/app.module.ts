@@ -4,13 +4,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
+  declarations: [AppComponent], // регистрируем компонент
+  imports: [BrowserModule], // импорт модуля для запуска приложения в браузере
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent], // запуск главного компонента
 })
-export class AppModule { }
+export class AppModule {}
